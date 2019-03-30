@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "178197269628",
+    "firebase_url": "https://appointy-ac8fb.firebaseio.com",
+    "project_id": "appointy-ac8fb",
+    "storage_bucket": "appointy-ac8fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178197269628:android:9c6ec98855f80d19",
+        "android_client_info": {
+          "package_name": "akash.haxkers.com.appointy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178197269628-4dl04kvmkkv8666rtpifgnkfo3mq18vv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd1GhoQIFGPahTxYuhC4n1ozPycvMiss8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
