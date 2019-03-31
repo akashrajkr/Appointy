@@ -26,7 +26,6 @@ public class doctorLogin extends AppCompatActivity implements View.OnClickListen
         findViewById(R.id.docsubmit).setOnClickListener(this);
         userMail = findViewById(R.id.etUsermail);
         password = findViewById(R.id.etPassword);
-
         mAuth = FirebaseAuth.getInstance();
 
     }
@@ -64,7 +63,6 @@ public class doctorLogin extends AppCompatActivity implements View.OnClickListen
                 if(task.isSuccessful()){
                     Intent intent = new Intent(doctorLogin.this, doctorActivity.class);
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-
                     startActivity(intent);
                 }
                 else{
@@ -72,7 +70,6 @@ public class doctorLogin extends AppCompatActivity implements View.OnClickListen
                 }
             }
         });
-
 
     }
 

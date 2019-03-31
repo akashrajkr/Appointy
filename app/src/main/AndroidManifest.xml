@@ -26,7 +26,8 @@
         <activity
             android:name=".doctorLogin"
             android:screenOrientation="portrait" />
-        <activity android:name=".doctorActivity"></activity>
+        <activity android:name=".doctorActivity" />
+        <activity android:name=".patientActivity"></activity>
     </application>
 
 </manifest>
