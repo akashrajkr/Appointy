@@ -23,7 +23,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="268dp"
-        android:text="Appointy"
+        android:text="@string/app_name"
         android:textColor="#606060"
         android:textSize="30sp"
         />
