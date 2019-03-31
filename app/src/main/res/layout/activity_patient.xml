@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginStart="0dp"
-        android:layout_marginTop="115dp"
+        android:layout_marginTop="142dp"
         android:ems="10"
         android:hint="Patient name"
         android:inputType="textPersonName"
@@ -39,35 +39,35 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/editText2"
         android:layout_alignStart="@+id/Book"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="13dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="7dp"
         android:ems="10"
         android:hint="Phone number"
         android:inputType="phone"
         tools:layout_editor_absoluteX="42dp"
         tools:layout_editor_absoluteY="228dp" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="106dp"
-        android:layout_marginBottom="221dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="322dp" />
+    <!--<Button-->
+        <!--android:id="@+id/button"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginStart="106dp"-->
+        <!--android:layout_marginBottom="221dp"-->
+        <!--android:text="Button"-->
+        <!--tools:layout_editor_absoluteX="42dp"-->
+        <!--tools:layout_editor_absoluteY="322dp" />-->
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/button"
-        android:layout_marginTop="-1dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="321dp" />
+    <!--<Button-->
+        <!--android:id="@+id/button2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignTop="@+id/button"-->
+        <!--android:layout_marginTop="-1dp"-->
+        <!--android:text="Button"-->
+        <!--tools:layout_editor_absoluteX="161dp"-->
+        <!--tools:layout_editor_absoluteY="321dp" />-->
 
     <TextView
         android:id="@+id/textView3"
@@ -90,8 +90,18 @@
         android:layout_marginTop="51dp"
         android:text="Book an appointment"
         android:textAlignment="center"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etPatName"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="267dp"
+        android:text="No slots available for today"
+        android:textSize="15sp"/>
 
 
 </RelativeLayout>

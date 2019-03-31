@@ -24,7 +24,6 @@
         android:id="@+id/doctorbutton"
         android:layout_width="170dp"
         android:layout_height="170dp"
-        android:layout_alignStart="@+id/patientbutton"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="0dp"

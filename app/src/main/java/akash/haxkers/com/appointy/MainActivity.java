@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         findViewById(R.id.doctorbutton).setOnClickListener(this);
+        findViewById(R.id.patientbutton).setOnClickListener(this);
     }
 
     @Override
@@ -22,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(this, doctorLogin.class));
                 break;
             case R.id.patientbutton:
-                startActivity(new Intent(this, patientActivity.class));
+                startActivity(new Intent(MainActivity.this, patientActivity.class));
                 break;
         }
     }
